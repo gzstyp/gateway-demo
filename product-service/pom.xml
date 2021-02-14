@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>product-service</artifactId>
 
+    <description>
+        商品服务,供订单服务调用,相当于服务提供者
+    </description>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

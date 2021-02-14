@@ -13,6 +13,11 @@
         <module>product-service</module>
     </modules>
 
+    <description>
+        product-service,商品服务,供订单服务调用,相当于服务提供者;
+        order-service,订单服务,它会内部调用商品服务;供web前端提供接口服务;
+    </description>
+
     <properties>
         <spring-cloud-version>Hoxton.SR1</spring-cloud-version>
         <spring-cloud-alibaba-version>2.1.0.RELEASE</spring-cloud-alibaba-version>
